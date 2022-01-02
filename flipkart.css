@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Baloo+Bhaijaan+2&family=Comfortaa&family=Concert+One&family=Dosis:wght@300&family=Genos:wght@300&family=Lato&family=Montserrat:wght@300&family=Pacifico&family=Permanent+Marker&family=Special+Elite&family=Voltaire&display=swap');
+
+
+
+body{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Lato', sans-serif;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:4rem;
+    width: 100vw;
+    background-color:#2874f0;
+
+    align-items:center;
+    margin:0;
+    gap:0.5rem;
+}
+
+#name{
+    margin-left:10%;
+    width:5rem;
+    height:5rem;
+    margin-bottom:0.5rem;
+
+}
+
+#name img{
+    width:100%;
+    height:5rem;
+    margin:0;
+    
+}
+
+#search{
+    flex:3;
+    align-items: center;
+    text-align: center;
+
+    display:flex;
+}
+
+input[type="text"]{
+    width:25rem;
+    height:2rem;
+    margin-bottom:1rem;
+    padding:0.2rem;
+    padding-left:1rem;
+
+    border:0;
+    outline: none;
+    border-top-left-radius:0.2rem;
+    border-bottom-left-radius:0.2rem;
+}
+
+#search #sicon{
+    width:3rem;
+    height:2rem;
+    margin-bottom:1rem;
+    background-color:white;
+    padding:0.2rem;
+    border-top-right-radius:0.2rem;
+    border-bottom-right-radius:0.2rem;
+  
+   
+
+}
+
+#sicon img{
+    width:1.5rem;
+    margin-top:0.5rem;
+    height:1.4rem;
+    
+}
+
+
+/* c */
+
+
+#n1{
+    flex:0.3;
+   
+
+  }
+
+  #n1 h3{
+    color: white;
+    border: none;
+    width: 10rem;  
+    height: 30px;
+    font-weight: bold;
+    font-size:0.9rem;
+  }
+  #m1{
+  flex:0.3;
+  color: white;
+    border: none;
+    width: 10rem;  
+    height: 2rem;
+    font-weight: bold;
+    font-size:1rem;
+    background-color:#2874f0;
+    margin-bottom:0.3rem;
+  }
+
+
+  #m1 > #selector{
+    color:white;
+    background-color:#2874f0;
+    font-weight: bolder;
+    border: none;
+  }
+  #d2{
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-evenly;
+      flex-basis:5rem;
+      height:2rem;
+   
+      
+  }
+  #d2 > #selector{
+      border: none;
+      font-weight: bolder;
+      height: 25px;
+      font-size: 14px;
+      color:rgba(44, 36, 36, 0.726);
+    
+  }
+  #main{
+      display:flex;
+      gap: 0.4rem;
+      background-color: rgba(211, 211, 211, 0.171);
+  }
+  #left{
+      background-color: white;
+      color:black;
+      flex:1;
+      height:110vh;
+      margin: 5px;
+  }
+  #right{
+    background-color: white;
+      flex:4;
+      height:110vh;
+      color:black;
+      padding-left:10px;
+      margin-top: 5px;
+  }
+  h2, h5{
+    padding-left: 10px;
+  }
+  #container{
+      display:flex;  
+  }
+  #mobile{
+      flex:1.2;
+      height:280px;
+  }
+  #content{
+      flex:2;
+      margin-left: -90px;
+  }
+  #price{
+      flex:1;
+      margin-left: -90px;
+      
+  }
+  #name2:hover{
+      color:blue;
+  }
